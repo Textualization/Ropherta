@@ -1,0 +1,43 @@
+{
+    "name": "textualization/ropherta",
+    "description": "Compute RoBERTa embeddings using ONNX framework.",
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/textualization/ropherta/issues",
+        "source": "https://github.com/textualization/ropherta"
+    },
+    "funding": [
+        {
+            "type": "ko-fi",
+            "url": "https://ko-fi.com/textualization"
+        }
+    ],
+    "require": {
+        "ankane/onnxruntime": "v0.1.5",
+        "textualization/ropherta-tokenizer": "v0.0.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Textualization\\Ropherta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pablo Duboue",
+            "email": "pablo.duboue@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload-dev": {
+        "psr-4": {
+            "Textualization\\Ropherta\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -d memory_limit=-1 tests"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.8"
+    }
+}
