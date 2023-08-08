@@ -25,3 +25,12 @@ composer exec -- php -r "require 'vendor/autoload.php'; Textualization\Ropherta\
 
 ## Computing embeddings
 
+```php
+
+$model = new RophertaModel();
+
+$emb = $model->embeddings("Text");
+```
+
+Check `\Textualization\Ropherta\Distances` to check whether two embeddings are closer to each other.
+
