@@ -34,3 +34,9 @@ $emb = $model->embeddings("Text");
 
 Check `\Textualization\Ropherta\Distances` to check whether two embeddings are closer to each other.
 
+## Sponsors
+
+We thank our sponsor:
+
+<a href="https://evoludata.com/"><img src="https://evoludata.com/display208"></a>
+
