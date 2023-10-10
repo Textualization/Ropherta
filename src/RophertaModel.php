@@ -10,8 +10,8 @@ use \Textualization\Ropherta\Tokenizer;
 class RophertaModel {
 
     private \OnnxRuntime\Model $model;
-    private Tokenizer $tokenizer;
-    private int $input_size;
+    protected Tokenizer $tokenizer;
+    protected int $input_size;
 
     function __construct($model=null, $input_size=512) {
         if(! $model) {
