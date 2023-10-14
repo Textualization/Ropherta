@@ -13,7 +13,8 @@ class RophertaModel {
     protected Tokenizer $tokenizer;
     protected int $input_size;
 
-    function __construct($model=null, $input_size=512) {
+    function __construct($model=null, $input_size=512)
+    {
         if(! $model) {
             $model = Vendor::model();
         }
@@ -23,7 +24,20 @@ class RophertaModel {
         $this->tokenizer = new Tokenizer();
     }
 
-    function embeddings(string|array $text_or_tokens) : array {
+    function embeddings(string|array $text_or_tokens) : array
+    {
+        $output = $this->_encode($text_or_tokens);
+        
+        if(isset($output["output_2"])){
+            $output = $output["output_2"][0];
+        }
+        if(isset($output["last_hidden_state"])){
+            $output = $output["last_hidden_state"][0][0];
+        }
+        return $output;
+    }
+    
+    function _encode(string|array $text_or_tokens) : array {
         if(is_array($text_or_tokens)) {
             $tokens = $text_or_tokens;
         }else{
@@ -43,14 +57,6 @@ class RophertaModel {
             $input['attention_mask'] = [ $mask ];
         }
         
-        $output = $this->model->predict($input);
-        
-        if(isset($output["output_1"])){
-            $output = $output["output_1"][0][0];
-        }
-        if(isset($output["last_hidden_state"])){
-            $output = $output["last_hidden_state"][0][0];
-        }
-        return $output;
+        return $this->model->predict($input);
     }
 }

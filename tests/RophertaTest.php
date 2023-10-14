@@ -26,10 +26,10 @@ class RophertaTest extends TestCase {
         $embedding = $this->model->embeddings($longText);
 
         $this->assertEquals(768, count($embedding));
-        $expected = [ -0.066294938325882, 0.059013713151217, 0.0096856998279691, -0.10788087546825, 0.11651370674372, -0.094784937798977, -0.022315826267004, 0.018044251948595, 0.047157507389784, -0.04830427467823 ];
+        $expected = [ 66.0, -2042.0, -1620.0, -684.0, 1238.0, 1990.0, 2390.0, -947.0, -608.0, -1621.0 ];
         $got = array_slice($embedding, 0, 10);
         for($i=0; $i<10; $i++){
-            $expected[$i] = \floor($expected[$i] * 10000);
+            $expected[$i] = \floor($expected[$i]);
             $got[$i]      = \floor($got[$i]      * 10000);
         }
         $this->assertEquals($got, $expected);
