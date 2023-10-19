@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "ankane/onnxruntime": "v0.1.5",
+        "ankane/onnxruntime": "v0.1.7",
         "textualization/ropherta-tokenizer": "v0.0.2"
     },
     "license": "MIT",

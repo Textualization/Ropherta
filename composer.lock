@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "750201ca2429e925f50377d47300016c",
+    "content-hash": "dcb06e28f0e80327a6a6fee67dfdba9f",
     "packages": [
         {
             "name": "ankane/onnxruntime",
-            "version": "v0.1.5",
+            "version": "v0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ankane/onnxruntime-php.git",
-                "reference": "dfe1da7aa8cf8215992df5ea327a79dd48d11a56"
+                "reference": "179cbae11f297db628c48d571e524e2deebde42b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ankane/onnxruntime-php/zipball/dfe1da7aa8cf8215992df5ea327a79dd48d11a56",
-                "reference": "dfe1da7aa8cf8215992df5ea327a79dd48d11a56",
+                "url": "https://api.github.com/repos/ankane/onnxruntime-php/zipball/179cbae11f297db628c48d571e524e2deebde42b",
+                "reference": "179cbae11f297db628c48d571e524e2deebde42b",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "issues": "https://github.com/ankane/onnxruntime-php/issues",
                 "source": "https://github.com/ankane/onnxruntime-php"
             },
-            "time": "2023-05-25T02:23:52+00:00"
+            "time": "2023-10-15T22:37:14+00:00"
         },
         {
             "name": "gioni06/gpt3-tokenizer",
@@ -154,12 +154,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "40fc8fcd149f6ccff851e767c3fc5ded4e6a96c0"
+                "reference": "f49f6a836a816609c853718ba2ea422dc18a8e4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/40fc8fcd149f6ccff851e767c3fc5ded4e6a96c0",
-                "reference": "40fc8fcd149f6ccff851e767c3fc5ded4e6a96c0",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/f49f6a836a816609c853718ba2ea422dc18a8e4a",
+                "reference": "f49f6a836a816609c853718ba2ea422dc18a8e4a",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-30T10:00:15+00:00"
+            "time": "2023-08-24T20:23:35+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -286,12 +286,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "cfc54e30a4f5e5af5f9d9ce86697cfcc5f7e7c24"
+                "reference": "54103d838734be0499172026525e38cbf6af2711"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/cfc54e30a4f5e5af5f9d9ce86697cfcc5f7e7c24",
-                "reference": "cfc54e30a4f5e5af5f9d9ce86697cfcc5f7e7c24",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/54103d838734be0499172026525e38cbf6af2711",
+                "reference": "54103d838734be0499172026525e38cbf6af2711",
                 "shasum": ""
             },
             "require": {
@@ -302,7 +302,6 @@
                 "ircmaxell/php-yacc": "^0.0.7",
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
-            "default-branch": true,
             "bin": [
                 "bin/php-parse"
             ],
@@ -335,7 +334,7 @@
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
                 "source": "https://github.com/nikic/PHP-Parser/tree/4.x"
             },
-            "time": "2023-07-30T21:38:32+00:00"
+            "time": "2023-10-03T21:00:18+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -462,12 +461,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "9e1baee3a7525530f5600035759ce754a8b3750b"
+                "reference": "c21997e98f15d97ab791830debb68051ea595329"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/9e1baee3a7525530f5600035759ce754a8b3750b",
-                "reference": "9e1baee3a7525530f5600035759ce754a8b3750b",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c21997e98f15d97ab791830debb68051ea595329",
+                "reference": "c21997e98f15d97ab791830debb68051ea595329",
                 "shasum": ""
             },
             "require": {
@@ -532,7 +531,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-02T09:00:29+00:00"
+            "time": "2023-10-16T05:05:09+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -781,12 +780,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "6904cfa5f4a6211e759de8ef36fb51fc939a83fa"
+                "reference": "d7df04d6a05ac27ea03e5aa64457bae289ce32f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/6904cfa5f4a6211e759de8ef36fb51fc939a83fa",
-                "reference": "6904cfa5f4a6211e759de8ef36fb51fc939a83fa",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d7df04d6a05ac27ea03e5aa64457bae289ce32f7",
+                "reference": "d7df04d6a05ac27ea03e5aa64457bae289ce32f7",
                 "shasum": ""
             },
             "require": {
@@ -801,7 +800,7 @@
                 "phar-io/manifest": "^2.0.3",
                 "phar-io/version": "^3.0.2",
                 "php": ">=7.3",
-                "phpunit/php-code-coverage": "^9.2.13",
+                "phpunit/php-code-coverage": "^9.2.28",
                 "phpunit/php-file-iterator": "^3.0.5",
                 "phpunit/php-invoker": "^3.1.1",
                 "phpunit/php-text-template": "^2.0.3",
@@ -876,7 +875,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-02T08:56:58+00:00"
+            "time": "2023-10-16T05:05:51+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -1900,5 +1899,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
