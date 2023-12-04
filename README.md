@@ -1,4 +1,4 @@
-# Compute RoBERTa embeddings using ONNX framework.
+# Compute RoBERTa embeddings in PHP using ONNX framework.
 
 This brings the power of Transformers to the PHP world.
 
@@ -33,6 +33,15 @@ $emb = $model->embeddings("Text");
 ```
 
 Check `\Textualization\Ropherta\Distances` to check whether two embeddings are closer to each other.
+
+## Using custom embeddings
+
+```php
+$model = new RophertaModel("/path/to/model.onnx");
+$emb = $model->embeddings("Text");
+```
+
+To fine-tune a model you will need a large amount of in-domain text and use Python in a machine with a GPU. See [tuning](tuning/) for details.
 
 ## Sponsors
 
