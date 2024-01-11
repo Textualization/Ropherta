@@ -54,3 +54,6 @@ tzdata==2023.3
 urllib3==2.0.3
 xxhash==3.2.0
 yarl==1.9.2
+onnx==1.15.0
+onnxruntime==1.16.3
+optimum==1.16.1
