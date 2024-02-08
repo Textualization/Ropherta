@@ -37,7 +37,7 @@ class RophertaModel {
         return $output;
     }
     
-    function _encode(string|array $text_or_tokens) : array {
+    function _encode(string|array $text_or_tokens, float|bool $padding=false) : array {
         if(is_array($text_or_tokens)) {
             $tokens = $text_or_tokens;
         }else{
@@ -46,16 +46,26 @@ class RophertaModel {
         if(count($tokens) > $this->input_size) {
             $tokens = \array_slice($tokens, 0, $this->input_size);
         }
-        
-        $input = [ 'input_ids'=>[ $tokens ] ];
+        $input=[];
         if(count($this->model->inputs()) > 1) {
             // has mask
             $mask = [];
             foreach($tokens as $tok){
                 $mask[] = 1.0;
             }
+            if($padding) {
+                while(count($mask) < $this->input_size) {
+                    $mask[] = 0.0;
+                }
+            }
             $input['attention_mask'] = [ $mask ];
         }
+        if($padding) {
+            while(count($tokens) < $this->input_size) {
+                $tokens[] = $padding;
+            }
+        }
+        $input[ 'input_ids' ] = [ $tokens ];
         
         return $this->model->predict($input);
     }

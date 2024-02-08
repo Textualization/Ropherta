@@ -1,3 +1,10 @@
+ropherta (0.0.5)
+
+	* New location for ONNX model, thanks to @benoitg
+	* Added padding to `_encode`
+
+-- Pablo Duboue, 2024/02/08
+
 ropherta (0.0.4)
 
 	* Bumped onnx runtime version to fix memory leak bug
