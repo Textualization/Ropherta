@@ -25,7 +25,7 @@ class Vendor {
 
         echo "Downloading RoBERTa ONNX Model...\n";
 
-        $url = "https://github.com/onnx/models/raw/main/text/machine_comprehension/roberta/model/roberta-base-11.onnx";
+        $url = "https://github.com/onnx/models/raw/main/validated/text/machine_comprehension/roberta/model/roberta-base-11.onnx";
         $contents = file_get_contents($url);
 
         $checksum = hash('sha256', $contents);
