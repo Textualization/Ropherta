@@ -13,7 +13,7 @@ class RophertaModel {
     protected Tokenizer $tokenizer;
     protected int $input_size;
 
-    function __construct($model=null, $input_size=512)
+    function __construct($model=null, $input_size=512, $no_tokenizer=false)
     {
         if(! $model) {
             $model = Vendor::model();
@@ -21,7 +21,9 @@ class RophertaModel {
         $this->model = new \OnnxRuntime\Model($model);
         $this->input_size = $input_size;
 
-        $this->tokenizer = new Tokenizer();
+        if(! $no_tokenizer) {
+            $this->tokenizer = new Tokenizer();
+        }
     }
 
     function embeddings(string|array $text_or_tokens) : array
