@@ -1,3 +1,10 @@
+ropherta (0.0.7)
+
+	* Changes for XLM RoBERTa
+
+-- Pablo Duboue, 2024/02/12
+
+
 ropherta (0.0.6)
 
 	* New tokenizer version.

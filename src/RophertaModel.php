@@ -9,7 +9,7 @@ use \Textualization\Ropherta\Tokenizer;
 
 class RophertaModel {
 
-    private \OnnxRuntime\Model $model;
+    protected \OnnxRuntime\Model $model;
     protected Tokenizer $tokenizer;
     protected int $input_size;
 
