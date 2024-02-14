@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b66e5504f0748be9cb80d165182ce9dd",
+    "content-hash": "fd6fc5c53d97021898148a253159cc2f",
     "packages": [
         {
             "name": "ankane/onnxruntime",
@@ -105,21 +105,21 @@
         },
         {
             "name": "textualization/ropherta-tokenizer",
-            "version": "v0.0.5",
+            "version": "v0.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textualization/RophertaTokenizer.git",
-                "reference": "190db5479b029460d8ce0174fb9a4e58878431fa"
+                "reference": "7c674a5222c41e66093fdbff713420bf9526bd90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textualization/RophertaTokenizer/zipball/190db5479b029460d8ce0174fb9a4e58878431fa",
-                "reference": "190db5479b029460d8ce0174fb9a4e58878431fa",
+                "url": "https://api.github.com/repos/Textualization/RophertaTokenizer/zipball/7c674a5222c41e66093fdbff713420bf9526bd90",
+                "reference": "7c674a5222c41e66093fdbff713420bf9526bd90",
                 "shasum": ""
             },
             "require": {
                 "gioni06/gpt3-tokenizer": "v1.2.0",
-                "textualization/sentencepiece": "v0.0.2"
+                "textualization/sentencepiece": "v0.0.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5.8"
@@ -152,20 +152,20 @@
                     "type": "ko-fi"
                 }
             ],
-            "time": "2024-02-13T03:10:57+00:00"
+            "time": "2024-02-14T16:03:36+00:00"
         },
         {
             "name": "textualization/sentencepiece",
-            "version": "v0.0.2",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textualization/php-sentencepiece.git",
-                "reference": "81f7fe3cf384c8a2c7c8f3d6f6c761741dfc0a8f"
+                "reference": "a79b862a2c80c5f6cf9f36e2390d8b3fdceb8ee4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textualization/php-sentencepiece/zipball/81f7fe3cf384c8a2c7c8f3d6f6c761741dfc0a8f",
-                "reference": "81f7fe3cf384c8a2c7c8f3d6f6c761741dfc0a8f",
+                "url": "https://api.github.com/repos/Textualization/php-sentencepiece/zipball/a79b862a2c80c5f6cf9f36e2390d8b3fdceb8ee4",
+                "reference": "a79b862a2c80c5f6cf9f36e2390d8b3fdceb8ee4",
                 "shasum": ""
             },
             "require-dev": {
@@ -198,7 +198,7 @@
                     "type": "ko-fi"
                 }
             ],
-            "time": "2024-02-12T15:07:56+00:00"
+            "time": "2024-02-14T16:01:50+00:00"
         }
     ],
     "packages-dev": [
@@ -837,12 +837,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "43ab70b9e2d16f43e37fb43cbca87e60bf0ad289"
+                "reference": "b59fa6534869a57ccfe0142d08aef3db59cd2680"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/43ab70b9e2d16f43e37fb43cbca87e60bf0ad289",
-                "reference": "43ab70b9e2d16f43e37fb43cbca87e60bf0ad289",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b59fa6534869a57ccfe0142d08aef3db59cd2680",
+                "reference": "b59fa6534869a57ccfe0142d08aef3db59cd2680",
                 "shasum": ""
             },
             "require": {
@@ -932,7 +932,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-08T16:45:52+00:00"
+            "time": "2024-02-14T07:00:59+00:00"
         },
         {
             "name": "sebastian/cli-parser",

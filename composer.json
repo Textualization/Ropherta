@@ -14,7 +14,7 @@
     ],
     "require": {
         "ankane/onnxruntime": "v0.1.7",
-        "textualization/ropherta-tokenizer": "v0.0.5"
+        "textualization/ropherta-tokenizer": "v0.0.6"
     },
     "license": "MIT",
     "autoload": {
