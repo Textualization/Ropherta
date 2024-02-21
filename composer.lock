@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd6fc5c53d97021898148a253159cc2f",
+    "content-hash": "e66b058f03f94411a9340fac178575d4",
     "packages": [
         {
             "name": "ankane/onnxruntime",
@@ -105,16 +105,16 @@
         },
         {
             "name": "textualization/ropherta-tokenizer",
-            "version": "v0.0.6",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Textualization/RophertaTokenizer.git",
-                "reference": "7c674a5222c41e66093fdbff713420bf9526bd90"
+                "reference": "b56be5336dc2580afcdc89676d8414ae5f2b8566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Textualization/RophertaTokenizer/zipball/7c674a5222c41e66093fdbff713420bf9526bd90",
-                "reference": "7c674a5222c41e66093fdbff713420bf9526bd90",
+                "url": "https://api.github.com/repos/Textualization/RophertaTokenizer/zipball/b56be5336dc2580afcdc89676d8414ae5f2b8566",
+                "reference": "b56be5336dc2580afcdc89676d8414ae5f2b8566",
                 "shasum": ""
             },
             "require": {
@@ -152,7 +152,7 @@
                     "type": "ko-fi"
                 }
             ],
-            "time": "2024-02-14T16:03:36+00:00"
+            "time": "2024-02-21T00:01:28+00:00"
         },
         {
             "name": "textualization/sentencepiece",
